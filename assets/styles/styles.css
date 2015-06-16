@@ -51,11 +51,20 @@ div {
 }
 
 .main {
-  float: left;
+  /*float: left;*/
   left: 0;
 }
 
 .goal {
-  float: right;
+  /*float: right;*/
   right: 0;
+}
+
+.image {
+  display: inline-block;
+}
+
+.controls {
+  display: inline-block;
+  height: auto;
 }
