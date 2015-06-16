@@ -1,0 +1,12 @@
+.ron {
+  height: auto;
+  width: 25%;
+}
+
+.control-panel {
+  max-height: 250px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: gray;
+}
