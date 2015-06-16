@@ -1,0 +1,26 @@
+{
+  "name": "css-with-ron",
+  "version": "0.0.0",
+  "description": "Learn CSS with Ron Burgundy.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RWTreichel/2015-05-solo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RWTreichel/2015-05-solo/issues"
+  },
+  "homepage": "https://github.com/RWTreichel/2015-05-solo",
+  "engines": {
+    "node": "0.12.2"
+  },
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}
