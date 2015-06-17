@@ -2,28 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>The CSS Coloring Book ft. Ron Burgundy</title>
+  <title>Explore CSS with Ron Burgundy</title>
   <link rel="stylesheet" type="text/css" href="styles/normalize.css">
   <link rel="stylesheet" type="text/css" href="styles/styles.css">
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <!--<script src="jquery-1.11.3.js"></script>-->
+  <script src="init.js"></script>
 </head>
 <body>
-  <div class="container">
+  <div class="display-container">
     <div class="main display">
-      <div class="test"></div>
+      <div class="test">Current</div>
     </div>
 
     <div class="goal display">
-      <div class="solution"></div>
+      <div class="solution">Goal</div>
     </div>
   </div>
 
   <div class="control-panel">
     <img class="ron" src="img/ron.jpg">
-    <audio src="audio/raven.mp3" autoplay></audio>
+    <audio src="audio/raven.mp3"></audio>
 
     <div class="controls">
-      <button name="begin">Begin</button>
+      <button name="red">Background-Color: Red</button>
+      <button name="blue">Background-Color: Blue</button>
+      <button name="green">Background-Color: Green</button>
+      <br>
+      <button name="floatleft">Float: Left</button>
+      <button name="floatright">Float: Right</button>
+      <button name="floatnone">Float: None</button>
+      <br>
+      <button name="other">Various other controls...</button>
+      <br>
+      <button name="submit" class="submit">Check Answer</button>
     </div>
   </div>
 </body>
